@@ -10,7 +10,7 @@ Lesson 7 in StackSkills javascript &amp; jQuery stack. http://stackskills.com/co
 ##Usage##
 
     <script>
-    
+
 ##Vendors##
 jQuery - [http://jquery.com](http://jquery.com)
 
