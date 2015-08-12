@@ -2,14 +2,22 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <!-- <title>jQuery-Plugin</title>
+  <title>jQuery-Plugin</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-  <script src="js/script.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+  <script src="jquery.linkit.js" charset="utf-8"></script>
+  <script>
+    $(document).ready(function(){
+      $('span').linkIt({
+        href: 'http://test.com',
+        text: 'Click Me',
+        target: '_blank'
+      });
+    });
+  </script>
  </head>
  <body>
    <h1>LinkIt Demo</h1>
-   <p>This is the jQuery LinkIt plugin demo. Let's make <sp>this text</sp>into a link!</p>
+   <p>This is the jQuery LinkIt plugin demo. Let's make <span>this text</span> into a link!</p>
 
 
  </body>
